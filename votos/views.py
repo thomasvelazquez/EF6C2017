@@ -20,6 +20,7 @@ def resultado_global(request):
     context={}
     context['distritos'] = Distrito.objects.all()
     #TODO TU CODIGO AQUI
+    
 
     return render(request,'global.html',context)
 
@@ -34,7 +35,6 @@ def resultado_distrital(request):
     Candidato ganador
     """
     context={}
-
     #TODO TU CODIGO AQUI
 
     return render(request,'distrital.html',context)
