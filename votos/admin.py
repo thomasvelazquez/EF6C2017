@@ -8,3 +8,4 @@ from .models import (Votos,Candidato,Distrito)
 admin.site.register(Votos)
 admin.site.register(Candidato)
 admin.site.register(Distrito)
+#
