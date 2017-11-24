@@ -33,7 +33,7 @@ class Candidato(models.Model):
     """
     nombre = models.CharField(max_length=128)
     distrito = models.ForeignKey(Distrito)
-    #votos = models.
+    
 
 
 class Votos(models.Model):
@@ -41,7 +41,7 @@ class Votos(models.Model):
     #TODO Completar segun consideraciones del desarrollador
     En este comentario escribir por que se decide modelar de esta
     forma la clase
-    
+
     Se decide modelar asi esta clase porque es necesario el voto por distrito(que seria el maximo de votos)
      y votos_nulos para poner la cantidad de votos nulo que a habido en el districto
     """
